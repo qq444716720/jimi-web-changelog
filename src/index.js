@@ -17,7 +17,7 @@ module.exports = engine({
       "title": "性能优化"
     },
     "代码样式": {
-      "description": "🎨  对代码含义无影响的改动（空格，格式化，丢失的';'等，非 UI 变动）",
+      "description": "🎨  对代码含义无影响的改动（空格，格式化，等，非 UI 变动）",
       "title": "代码样式"
     },
     "文档": {
@@ -37,7 +37,7 @@ module.exports = engine({
       "title": "构建"
     },
     "持续集成": {
-      "description": "📦  持续集成的配置文件和脚本的改变（例如: Travis, Circle, BrowserStack, SauceLabs）",
+      "description": "📦  持续集成的配置文件和脚本的改变（例如: Travis, Circle）",
       "title": "持续集成"
     },
     "杂": {
