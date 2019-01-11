@@ -1,31 +1,30 @@
-'use strict';
-"format cjs";
 
-var _keys = require('babel-runtime/core-js/object/keys');
+'format cjs';
 
-var _keys2 = _interopRequireDefault(_keys);
+const _keys = require('babel-runtime/core-js/object/keys');
+
+const _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var wrap = require('word-wrap');
-var longest = require('longest');
-var rightPad = require('right-pad');
+const wrap = require('word-wrap');
+const longest = require('longest');
+const rightPad = require('right-pad');
 
-var filter = function filter(array) {
-  return array.filter(function (x) {
+const filter = function filter(array) {
+  return array.filter((x) => {
     return x;
   });
 };
 
 module.exports = function (options) {
+  const types = options.types;
 
-  var types = options.types;
+  const length = longest((0, _keys2.default)(types)).length * 2 + 1;
 
-  var length = longest((0, _keys2.default)(types)).length * 2 + 1;
-
-  var choices = (0, _keys2.default)(types).map(function (key) {
+  const choices = (0, _keys2.default)(types).map((key) => {
     return {
-      name: rightPad(key + ':', length / 2, '  ') + ' ' + types[key].description,
+      name: `${rightPad(`${key}:`, length / 2, '  ')} ${types[key].description}`,
       value: key
     };
   });
@@ -39,7 +38,7 @@ module.exports = function (options) {
         type: 'list',
         name: 'type',
         message: '选择你提交的信息类型:',
-        choices: choices
+        choices
       }, {
         type: 'input',
         name: 'scope',
@@ -76,11 +75,10 @@ module.exports = function (options) {
         when: function when(answers) {
           return answers.isIssueAffected;
         }
-      }]).then(function (answers) {
+      }]).then((answers) => {
+        const maxLineWidth = 100;
 
-        var maxLineWidth = 100;
-
-        var wrapOptions = {
+        const wrapOptions = {
           trim: true,
           newline: '\n',
           indent: '',
@@ -88,25 +86,25 @@ module.exports = function (options) {
         };
 
         // parentheses are only needed when a scope is present
-        var scope = answers.scope.trim();
-        scope = scope ? '(' + answers.scope.trim() + ')' : '';
+        let scope = answers.scope.trim();
+        scope = scope ? `(${answers.scope.trim()})` : '';
 
         // Hard limit this line
-        var head = (answers.type + scope + ': ' + answers.subject.trim()).slice(0, maxLineWidth);
+        const head = (`${answers.type + scope}: ${answers.subject.trim()}`).slice(0, maxLineWidth);
 
         // Wrap these lines at 100 characters
-        var body = wrap(answers.body, wrapOptions);
+        const body = wrap(answers.body, wrapOptions);
 
         // Apply breaking change prefix, removing it if already present
-        var breaking = answers.breaking ? answers.breaking.trim() : '';
-        breaking = breaking ? '不兼容变更: ' + breaking.replace(/^不兼容变更: /, '') : '';
+        let breaking = answers.breaking ? answers.breaking.trim() : '';
+        breaking = breaking ? `不兼容变更: ${breaking.replace(/^不兼容变更: /, '')}` : '';
         breaking = wrap(breaking, wrapOptions);
 
-        var issues = answers.issues ? wrap(answers.issues, wrapOptions) : '';
+        const issues = answers.issues ? wrap(answers.issues, wrapOptions) : '';
 
-        var footer = filter([breaking, issues]).join('\n\n');
+        const footer = filter([breaking, issues]).join('\n\n');
 
-        commit(head + '\n\n' + body + '\n\n' + footer);
+        commit(`${head}\n\n${body}\n\n${footer}`);
       });
     }
   };
