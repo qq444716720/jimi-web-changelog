@@ -1,25 +1,27 @@
 {
   "name": "jimi-web-changelog",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "author": "Feax",
   "description": "changelog",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
   "scripts": {
     "cz": "git add . && git cz",
     "log": "conventional-changelog -p jimi -i CHANGELOG.md -s -r 0",
-    "build": "cross-env babel src --out-dir lib"
+    "build": "cross-env babel lib --out-dir dist"
   },
   "keywords": [
     "changelog",
     "git"
   ],
-  "author": "Feax",
   "license": "ISC",
   "config": {
     "commitizen": {
-      "path": "./node_modules/jimi-web-changelog",
-      "ghooks": {
-        "commit-msg": "./validate-commit-msg.js"
-      }
+      "path": "./node_modules/jimi-web-changelog/dist/cz"
     }
   },
   "devDependencies": {
@@ -29,7 +31,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "commitizen": "^3.0.5",
     "cross-env": "^5.2.0",
-    "jimi-web-changelog": "^0.0.2",
+    "jimi-web-changelog": "^0.0.3",
     "lodash.map": "^4.6.0",
     "longest": "^2.0.1",
     "right-pad": "^1.0.1",
