@@ -11,7 +11,6 @@
   ],
   "scripts": {
     "cz": "git add . && git cz",
-    "lint": "lint-staged",
     "log": "conventional-changelog -p jimi -i CHANGELOG.md -s -r 0",
     "build": "cross-env babel lib --out-dir dist"
   },
@@ -26,7 +25,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
