@@ -8,7 +8,6 @@ var _keys2 = _interopRequireDefault(_keys);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var wrap = require('word-wrap');
-var map = require('lodash.map');
 var longest = require('longest');
 var rightPad = require('right-pad');
 
@@ -22,10 +21,11 @@ module.exports = function (options) {
 
   var types = options.types;
 
-  var length = longest((0, _keys2.default)(types)).length + 1;
-  var choices = map(types, function (type, key) {
+  var length = longest((0, _keys2.default)(types)).length * 2 + 1;
+
+  var choices = (0, _keys2.default)(types).map(function (key) {
     return {
-      name: rightPad(key + ':', length) + ' ' + type.description,
+      name: rightPad(key + ':', length / 2, '  ') + ' ' + types[key].description,
       value: key
     };
   });
