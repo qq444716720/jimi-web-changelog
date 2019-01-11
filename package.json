@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "cz": "git add . && git cz",
-    "log": "conventional-changelog --config index.js -i CHANGELOG.md -s -r 0",
+    "log": "conventional-changelog --config index.js -i CHANGELOG.md -s -r 1",
     "build": "cross-env babel lib --out-dir dist",
     "v": "standard-version -r patch"
   },

@@ -1,11 +1,12 @@
 # 功能
 
 * 定制化 git 提交（参考 Angular 规范）
+* 规范版本
 * 自动生成 CHANGELOG.MD 文件
 
-## 使用方法
+## cz 使用方法
 
-### 1. 安装依赖包
+### 1. 安装 commitizen 依赖包
 
 > cnpm i commitizen --save-dev
 
@@ -31,3 +32,22 @@
 ```
 
 按照提示正确输出 commit 信息内容。
+
+## 版本管理使用方法
+
+### 1. 安装 standard-version 依赖包
+
+```js
+cnpm i standard-version --save-dev
+```
+
+```json
+{
+  "release-major": "standard-version -r major",
+  "release-minor": "standard-version -r minor",
+  "release-patch": "standard-version -r patch"
+}
+major: 通常代表一个大的版本更新(1.0.0 -> 2.0.0)
+minor: 代表一个小的版本更新(1.0.0 -> 1.1.0)
+patch: 代表 bug 修复(1.0.0 -> 1.0.1)
+```
