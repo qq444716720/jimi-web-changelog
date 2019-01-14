@@ -1,6 +1,6 @@
 {
   "name": "jimi-web-changelog",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Feax",
   "description": "changelog",
   "main": "dist/index.js",
