@@ -30,7 +30,6 @@ module.exports = function (options) {
   });
 
   return {
-
     prompter: function prompter(cz, commit) {
       console.log('\n标题会在100个字符后进行裁剪。 主体内容每行会在100个字符后自动换行，手动换行请直接输入"\\n"。\n');
 
@@ -97,7 +96,7 @@ module.exports = function (options) {
 
         // Apply breaking change prefix, removing it if already present
         let breaking = answers.breaking ? answers.breaking.trim() : '';
-        breaking = breaking ? `不兼容变更: ${breaking.replace(/^不兼容变更: /, '')}` : '';
+        breaking = breaking ? `\u4E0D\u517C\u5BB9\u53D8\u66F4: ${breaking.replace(/^不兼容变更: /, '')}` : '';
         breaking = wrap(breaking, wrapOptions);
 
         const issues = answers.issues ? wrap(answers.issues, wrapOptions) : '';

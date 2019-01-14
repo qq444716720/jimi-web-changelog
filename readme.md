@@ -43,9 +43,11 @@ cnpm i standard-version --save-dev
 
 ```json
 {
-  "release-major": "standard-version -r major",
-  "release-minor": "standard-version -r minor",
-  "release-patch": "standard-version -r patch"
+  "script": {
+    "release-major": "standard-version -r major",
+    "release-minor": "standard-version -r minor",
+    "release-patch": "standard-version -r patch"
+  }
 }
 major: 通常代表一个大的版本更新(1.0.0 -> 2.0.0)
 minor: 代表一个小的版本更新(1.0.0 -> 1.1.0)
