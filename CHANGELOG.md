@@ -1,8 +1,9 @@
-# Change Log
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
 ## [0.0.9](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.8...v0.0.9) (2019-01-14)
+
+
+### 🐛 Bug 修复
+
+* **doc：** 更新日志文件 ([7134060](https://github.com/j710328466/jimi-web-changelog/commit/7134060))
 
 
 
@@ -65,3 +66,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **ui层：** vi接口不兼容
 * **？？：** 影响了一个api
 * **测试：** close #1234
+
+
+
