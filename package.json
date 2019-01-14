@@ -21,7 +21,7 @@
   ],
   "config": {
     "commitizen": {
-      "path": "./dist/cz"
+      "path": "./lib/cz"
     }
   },
   "husky": {
@@ -58,6 +58,10 @@
     "right-pad": "^1.0.1",
     "standard-version": "^4.4.0",
     "work-wrap": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j710328466/jimi-web-changelog"
   },
   "license": "ISC"
 }
