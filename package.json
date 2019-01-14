@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "cz": "git add . && git cz",
-    "log": "conventional-changelog --config lib/log -i CHANGELOG.md -s -r 1",
+    "log": "conventional-changelog --config node_modules/jimi-web-changelog/lib/log -i CHANGELOG.md -s -r 0",
     "build": "cross-env babel lib --out-dir dist",
     "v": "standard-version -r patch"
   },
@@ -51,7 +51,7 @@
     "eslint-plugin-react": "^7.12.3",
     "github-url-from-git": "^1.5.0",
     "husky": "^1.3.1",
-    "jimi-web-changelog": "^0.0.3",
+    "jimi-web-changelog": "^0.0.7",
     "lint-staged": "^8.1.0",
     "longest": "^2.0.1",
     "q": "^1.5.1",
