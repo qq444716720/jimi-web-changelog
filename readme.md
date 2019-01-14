@@ -1,10 +1,10 @@
 # 功能
 
-* 定制化 git 提交（参考 Angular 规范）
-* 规范版本
-* 自动生成 CHANGELOG.MD 文件
+* cz -- 定制化 git 提交
+* log -- 自动生成 CHANGELOG.MD 日志文件
+* lint -- 校验 commit 信息
 
-## cz 使用方法
+## cz 模块使用方法
 
 ### 1. 安装 commitizen 依赖包
 
@@ -23,7 +23,7 @@
 }
 ```
 
-### 3. 在 Package.json 中创建以下 script 命令
+### 3. 在 package.json 中创建以下 script 命令
 
 ```json
 {
@@ -32,6 +32,30 @@
 ```
 
 按照提示正确输出 commit 信息内容。
+
+## log 模块使用方法
+
+### 1. 安装 conventional-changelog-cli 依赖包
+
+```js
+cnpm i conventional-changelog-cli --save-dev
+```
+
+## 2. 创建以下命令
+
+```json
+{
+  ...
+  "script": {
+    "log": "conventional-changelog --config node_modules/jimi-web-changelog/lib/log -i CHANGELOG.md -s -r 0",
+  }
+}
+> 结尾数字若为 1 ，生成当前版本的变化情况，若为0， 生成所有的日志文件。
+```
+
+## lint 模块校验使用方法
+
+开发中...
 
 ## 版本管理使用方法
 
@@ -57,22 +81,4 @@ minor: 代表一个小的版本更新(1.0.0 -> 1.1.0)
 patch: 代表 bug 修复(1.0.0 -> 1.0.1)
 ```
 
-## 日志自动输出使用方法
-
-### 1. 安装 conventional-changelog-cli 依赖包
-
-```js
-cnpm i conventional-changelog-cli --save-dev
-```
-
-## 2. 创建以下命令
-
-```json
-{
-  ...
-  "script": {
-    "log": "conventional-changelog --config node_modules/jimi-web-changelog/lib/log -i CHANGELOG.md -s -r 1",
-  }
-}
-> 结尾如果为 1 ，生成当前版本的变化情况，0 为所有的日志文件。默认只会有新功能和修复的日志输出。
-```
+## 小结

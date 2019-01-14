@@ -1,8 +1,19 @@
-# Change Log
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
 ## [0.0.8](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.7...v0.0.8) (2019-01-14)
+
+
+### 🐛 Bug 修复
+
+* **doc：** 修改 eslint ([6e72d18](https://github.com/j710328466/jimi-web-changelog/commit/6e72d18)), closes [#333](https://github.com/j710328466/jimi-web-changelog/issues/333)
+
+
+### 🚀 性能优化
+
+* **优化：** 优化优化 ([4109cf3](https://github.com/j710328466/jimi-web-changelog/commit/4109cf3))
+
+
+### 💡 不兼容变更
+
+* **doc：** 影响列表 api 输出
 
 
 
@@ -46,3 +57,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **ui层：** vi接口不兼容
 * **？？：** 影响了一个api
 * **测试：** close #1234
+
+
+
