@@ -1,3 +1,11 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [0.0.11](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.10...v0.0.11) (2019-01-15)
+
+
+
 ## [0.0.10](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.9...v0.0.10) (2019-01-14)
 
 
@@ -75,6 +83,3 @@
 * **ui层：** vi接口不兼容
 * **？？：** 影响了一个api
 * **测试：** close #1234
-
-
-
