@@ -1,13 +1,35 @@
-# Change Log
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
 ## [0.0.11](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.10...v0.0.11) (2019-01-15)
+
+### 🌟 新功能
+
+* **性能优化：** fff ([1c22bcc](https://github.com/j710328466/jimi-web-changelog/commit/1c22bcc))
+* **数据层：** 新增一个模块 ([1cfa3b7](https://github.com/j710328466/jimi-web-changelog/commit/1cfa3b7)), closes [#1234](https://github.com/j710328466/jimi-web-changelog/issues/1234)
+* **未知：** 修改doc ([ec39434](https://github.com/j710328466/jimi-web-changelog/commit/ec39434))
+
+
+### 🚴 杂
+
+* **cet：** tet ([79da17f](https://github.com/j710328466/jimi-web-changelog/commit/79da17f)), closes [#43](https://github.com/j710328466/jimi-web-changelog/issues/43)
+* **tet：** tet ([b961fd8](https://github.com/j710328466/jimi-web-changelog/commit/b961fd8)), closes [#333](https://github.com/j710328466/jimi-web-changelog/issues/333)
+* **tett：** tett ([9108962](https://github.com/j710328466/jimi-web-changelog/commit/9108962)), closes [#344](https://github.com/j710328466/jimi-web-changelog/issues/344)
+* **未知：** test ([78db716](https://github.com/j710328466/jimi-web-changelog/commit/78db716)), closes [#000](https://github.com/j710328466/jimi-web-changelog/issues/000)
+* **未知：** test ([f065407](https://github.com/j710328466/jimi-web-changelog/commit/f065407)), closes [#0](https://github.com/j710328466/jimi-web-changelog/issues/0)
+* **未知：** 测试 ([b43e254](https://github.com/j710328466/jimi-web-changelog/commit/b43e254)), closes [#001](https://github.com/j710328466/jimi-web-changelog/issues/001)
+
+
+### 💡 不兼容变更
+
+* **数据层：** 影响到一个 api接口
+* **未知：** 不兼容
+* **未知：** test
+* **未知：** no
+* **cet：** dfdt
+* **tett：** t
+* **tet：** tet
 
 
 
 ## [0.0.10](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.9...v0.0.10) (2019-01-14)
-
 
 ### 🌟 新功能
 
@@ -17,7 +39,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.0.9](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.8...v0.0.9) (2019-01-14)
 
-
 ### 🐛 Bug 修复
 
 * **doc：** 更新日志文件 ([7134060](https://github.com/j710328466/jimi-web-changelog/commit/7134060))
@@ -25,7 +46,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 ## [0.0.8](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.7...v0.0.8) (2019-01-14)
-
 
 ### 🐛 Bug 修复
 
@@ -45,7 +65,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.0.7](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.6...v0.0.7) (2019-01-14)
 
-
 ### 🌟 新功能
 
 * **c：** cd ([bed3ef4](https://github.com/j710328466/jimi-web-changelog/commit/bed3ef4))
@@ -60,13 +79,10 @@ All notable changes to this project will be documented in this file. See [standa
 ## [0.0.6](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.5...v0.0.6) (2019-01-11)
 
 
-
 ## [0.0.5](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.4...v0.0.5) (2019-01-11)
 
 
-
 ## [0.0.4](https://github.com/j710328466/jimi-web-changelog/compare/ae5248a...v0.0.4) (2019-01-11)
-
 
 ### 🌟 新功能
 
@@ -83,3 +99,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **ui层：** vi接口不兼容
 * **？？：** 影响了一个api
 * **测试：** close #1234
+
+
+

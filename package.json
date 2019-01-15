@@ -11,9 +11,9 @@
   ],
   "scripts": {
     "cz": "git add . && git cz",
-    "log": "conventional-changelog --config node_modules/jimi-web-changelog/lib/log -i CHANGELOG.md -s -r 1",
-    "build": "cross-env babel lib --out-dir dist",
-    "v": "standard-version -r patch"
+    "log": "conventional-changelog --config lib/log -i CHANGELOG.md -s -r 0",
+    "v": "standard-version -r patch",
+    "build": "cross-env babel lib --out-dir dist"
   },
   "keywords": [
     "changelog",
@@ -26,7 +26,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
@@ -64,5 +65,5 @@
     "type": "git",
     "url": "https://github.com/j710328466/jimi-web-changelog"
   },
-  "license": "ISC"
+  "license": "MIT"
 }

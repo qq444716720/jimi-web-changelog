@@ -1,10 +1,10 @@
 # 功能
 
-* cz -- 定制化 git 提交
-* log -- 自动生成 CHANGELOG.MD 日志文件
-* lint -- 校验 commit 信息
+1. cz -- 定制化 git 提交
+2. log -- 自动生成 CHANGELOG.MD 日志文件
+3. lint -- 校验 commit 信息
 
-## cz 模块使用方法
+## 一、cz 模块使用方法
 
 ### 1. 安装 commitizen 依赖包
 
@@ -33,7 +33,7 @@
 
 按照提示正确输出 commit 信息内容。
 
-## log 模块使用方法
+## 二、log 模块使用方法
 
 ### 1. 安装 conventional-changelog-cli 依赖包
 
@@ -50,10 +50,10 @@ cnpm i conventional-changelog-cli --save-dev
     "log": "conventional-changelog --config node_modules/jimi-web-changelog/lib/log -i CHANGELOG.md -s -r 0",
   }
 }
-> 结尾数字若为 1 ，生成当前版本的变化情况，若为0， 生成所有的日志文件。
+> 结尾数字若为 1 ，生成当前版本的变化情况，若为 0， 生成所有的日志文件。
 ```
 
-## lint 模块校验使用方法
+## 三、lint 模块校验使用方法
 
 开发中...
 
@@ -83,4 +83,12 @@ patch: 代表 bug 修复(1.0.0 -> 1.0.1)
 
 > 每次提交会自动更新 changelog 文件
 
-## 小结
+## Q&A
+
+### No files added to staging! Did you forget to run git add？
+
+应该文件内容没有更新，重复提交导致的。试着更新项目中的某个内容试试。
+
+### 提交后，跑cz模块，CHANGELOG.MD 内容没有更新？
+
+可能是版本号没有更新，只有新版本发布的同时，才会写入旧版本的更新内容。试着给项目打个新的版本号。
