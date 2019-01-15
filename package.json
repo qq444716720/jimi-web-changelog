@@ -1,6 +1,6 @@
 {
   "name": "jimi-web-changelog",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Feax",
   "description": "changelog",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   "scripts": {
     "cz": "git add . && git cz",
     "log": "conventional-changelog --config lib/log -i CHANGELOG.md -s -r 0",
-    "v": "standard-version -r minor",
+    "v": "standard-version -r ${type}",
     "build": "rm -rf dist && cross-env babel lib --out-dir dist"
   },
   "keywords": [
