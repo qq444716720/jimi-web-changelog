@@ -2,9 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.13](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.12...v0.0.13) (2019-01-15)
+
+
+
 ## [0.0.12](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.11...v0.0.12) (2019-01-15)
 
+### 🌟 新功能
 
+* **数据层：** ggg ([46df24d](https://github.com/j710328466/jimi-web-changelog/commit/46df24d))
+* **整个项目：** 测试 commitlint ([da54c03](https://github.com/j710328466/jimi-web-changelog/commit/da54c03))
 
 ## [0.0.11](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.10...v0.0.11) (2019-01-15)
 
