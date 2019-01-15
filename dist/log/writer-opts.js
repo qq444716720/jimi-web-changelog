@@ -26,7 +26,6 @@ function getWriterOpts() {
         note.title = '💡 不兼容变更';
         discard = false;
       });
-      console.log(commit.type);
       if (commit.type === 'feat' || commit.type === '新功能') {
         commit.type = '🌟 新功能';
       } else if (commit.type === 'fix' || commit.type === '修复') {
@@ -49,6 +48,8 @@ function getWriterOpts() {
         commit.type = '🏠 构建系统';
       } else if (commit.type === 'ci' || commit.type === '持续集成') {
         commit.type = '📦 持续集成';
+      } else if (commit.type === '杂') {
+        commit.type = '🚴 杂';
       }
 
       if (commit.scope === '*') {

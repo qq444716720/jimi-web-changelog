@@ -11,6 +11,7 @@ module.exports = {
     let features = 0;
 
     commits.forEach((commit) => {
+      console.log(commit);
       if (commit.notes.length > 0) {
         breakings += commit.notes.length;
         level = 0;
