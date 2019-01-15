@@ -21,7 +21,7 @@ module.exports = {
       issuePrefixes: ['#'],
       noteKeywords: ['BREAKING CHANGE', '不兼容变更'],
       fieldPattern: /^-(.*?)-$/,
-      revertPattern: /^Revert\s"([\s\S]*)"\s*This reverts commit (\w*)\./,
+      revertPattern: /^Revert\s'([\s\S]*)'\s*This reverts commit (\w*)\./,
       revertCorrespondence: ['header', 'hash'],
       warn() {},
       mergePattern: null,
@@ -31,12 +31,10 @@ module.exports = {
   rules: {
     'body-leading-blank': [2, 'always'],
     'footer-leading-blank': [1, 'always'],
-    'header-max-length': [2, 'always', 108],
+    'header-max-length': [2, 'always', 100],
     'subject-empty': [2, 'never'],
     'type-empty': [2, 'never'],
-    'type-enum': [
-      2,
-      'always',
+    'type-enum': [2, 'always', // 类型定义字段
       [
         '新功能',
         'feat',
@@ -59,7 +57,13 @@ module.exports = {
         'chore',
         '撤销',
         'revert'
-      ],
+      ]
     ],
+    'scope-enum': [2, 'always', 
+      [ // 影响范围定义字段
+        // 'components/Button',
+        // '组件/按钮',
+      ]
+    ]
   }
-};
+}
