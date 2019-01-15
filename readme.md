@@ -31,7 +31,11 @@
 }
 ```
 
-按照提示正确输出 commit 信息内容。
+按照提示正确输出 commit 信息内容，如下示例：
+
+![git](https://github.com/j710328466/jimi-web-changelog/demo/git.png)
+
+
 
 ## 二、log 模块
 
@@ -52,6 +56,11 @@ cnpm i conventional-changelog-cli --save-dev
 }
 > 结尾数字若为 1 ，生成当前版本的变化情况，若为 0， 生成所有的日志文件。
 ```
+
+### 3. 示例
+
+![git](https://github.com/j710328466/jimi-web-changelog/demo/md.png)
+
 
 ## 三、lint 模块
 

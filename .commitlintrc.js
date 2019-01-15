@@ -1,8 +1,8 @@
 module.exports = {
   parserPreset: {
     parserOpts: {
-      // headerPattern: /^(\w*|[\u4e00-\u9fa5]*)(?:[\(\（](.*)[\)\）])?[\:\：] (.*)/,
-      headerPattern: /^(.*\w*): (.*)$/,
+      headerPattern: /^(\w*|[\u4e00-\u9fa5]*)(?:[\(\（](.*)[\)\）])?[\:\：] (.*)/,
+      // headerPattern: /^(.*\w*): (.*)$/,
       headerCorrespondence: [
         'type',
         'scope',
@@ -23,7 +23,7 @@ module.exports = {
       noteKeywords: ['BREAKING CHANGE', '不兼容变更'],
       fieldPattern: /^-(.*?)-$/,
       revertPattern: /^Revert\s'([\s\S]*)'\s*This reverts commit (\w*)\./,
-      revertCorrespondence: ['type', 'subject'],
+      revertCorrespondence: ['header', 'hash'],
       warn() {},
       mergePattern: null,
       mergeCorrespondence: null

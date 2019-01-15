@@ -1,8 +1,20 @@
-# Change Log
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
 ## [0.0.15](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.14...v0.0.15) (2019-01-15)
+
+### 🌟 新功能
+
+* **用户管理：** 删除用户手机号参数 ([9555ab4](https://github.com/j710328466/jimi-web-changelog/commit/9555ab4))
+* **用户管理模块：** 新增用户管理新增功能 ([7803c50](https://github.com/j710328466/jimi-web-changelog/commit/7803c50))
+* **视图层：** 修改头部按钮样式 ([2054ed6](https://github.com/j710328466/jimi-web-changelog/commit/2054ed6))
+
+
+### 🐛 Bug 修复
+
+* **商品配置：** 删除商品配置大小参数 ([0958a91](https://github.com/j710328466/jimi-web-changelog/commit/0958a91))
+
+
+### 🚀 性能优化
+
+* **整个项目：** 提升首页加载速度 ([0091c92](https://github.com/j710328466/jimi-web-changelog/commit/0091c92))
 
 
 
@@ -127,3 +139,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **ui层：** vi接口不兼容
 * **？？：** 影响了一个api
 * **测试：** close #1234
+
+
+
