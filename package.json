@@ -13,7 +13,7 @@
     "cz": "git add . && git cz",
     "log": "conventional-changelog --config lib/log -i CHANGELOG.md -s -r 0",
     "v": "standard-version -r minor",
-    "build": "cross-env babel lib --out-dir dist"
+    "build": "rm -rf dist && cross-env babel lib --out-dir dist"
   },
   "keywords": [
     "changelog",
