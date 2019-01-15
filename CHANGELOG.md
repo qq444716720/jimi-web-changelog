@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.1.0](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.16...v0.1.0) (2019-01-15)
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ## [0.0.16](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.15...v0.0.16) (2019-01-15)
 
 
