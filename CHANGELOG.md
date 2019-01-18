@@ -1,9 +1,4 @@
-# Change Log
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
 ## [0.1.4](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.3...v0.1.4) (2019-01-18)
-
 
 
 ## [0.1.3](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.2...v0.1.3) (2019-01-15)
@@ -11,6 +6,7 @@ All notable changes to this project will be documented in this file. See [standa
 ### 🐛 Bug 修复
 
 * **cz模块：** 打包模块到 dist 目录 ([684aaf1](https://github.com/j710328466/jimi-web-changelog/commit/684aaf1))
+
 
 
 ## [0.1.2](https://github.com/j710328466/jimi-web-changelog/compare/0.1.1...v0.1.2) (2019-01-15)
@@ -164,3 +160,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **ui层：** vi接口不兼容
 * **？？：** 影响了一个api
 * **测试：** close #1234
+
+
+
