@@ -85,14 +85,13 @@ cnpm i husky commitlint --save-dev
 
 ### 3. 在项目根路径下创建 .commitlint.js 或者 commitlint.config.js
 
-配置参考：
+配置规则参考：
 
 ```js
-module.exports = {
+let lintConfig = require('jimi-web-changelog/lib/lint')
+
+module.exports = Object.assign({}, lintConfig, {
   rules: {
-    'body-leading-blank': [2, 'always'],
-    'footer-leading-blank': [1, 'always'],
-    'header-max-length': [2, 'always', 100],
     'subject-empty': [2, 'never'],
     'type-empty': [2, 'never'],
     'type-enum': [2, 'always',
@@ -101,42 +100,10 @@ module.exports = {
         '修复',
         ...
       ]
-    ],
-    'scope-enum': [2, 'always',
-      [
-        'components/Button',
-        '组件/按钮',
-      ]
     ]
   }
 }
 ```
-
-## 版本管理使用方法
-
-### 1. 安装 standard-version 依赖包
-
-```js
-cnpm i standard-version --save-dev
-```
-
-### 2. 在 package.json 里配置脚本
-
-```json
-{
-  ...
-  "script": {
-    "release-major": "standard-version -r major",
-    "release-minor": "standard-version -r minor",
-    "release-patch": "standard-version -r patch"
-  }
-}
-major: 通常代表一个大的版本更新(1.0.0 -> 2.0.0)
-minor: 代表一个小的版本更新(1.0.0 -> 1.1.0)
-patch: 代表 bug 修复(1.0.0 -> 1.0.1)
-```
-
-> 每次提交会自动更新 changelog 文件
 
 ## Q&A
 
