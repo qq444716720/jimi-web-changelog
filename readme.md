@@ -112,32 +112,6 @@ module.exports = {
 }
 ```
 
-## 版本管理使用方法
-
-### 1. 安装 standard-version 依赖包
-
-```js
-cnpm i standard-version --save-dev
-```
-
-### 2. 在 package.json 里配置脚本
-
-```json
-{
-  ...
-  "script": {
-    "release-major": "standard-version -r major",
-    "release-minor": "standard-version -r minor",
-    "release-patch": "standard-version -r patch"
-  }
-}
-major: 通常代表一个大的版本更新(1.0.0 -> 2.0.0)
-minor: 代表一个小的版本更新(1.0.0 -> 1.1.0)
-patch: 代表 bug 修复(1.0.0 -> 1.0.1)
-```
-
-> 每次提交会自动更新 changelog 文件
-
 ## Q&A
 
 ### No files added to staging! Did you forget to run git add？
