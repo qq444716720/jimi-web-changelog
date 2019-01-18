@@ -1,17 +1,7 @@
-# Change Log
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-# [0.1.0](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.16...v0.1.0) (2019-01-15)
+## [0.1.1](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.0...v0.1.1) (2019-01-18)
 
 
-
-# Change Log
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-## [0.0.16](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.15...v0.0.16) (2019-01-15)
-
+# [0.1.0](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.15...v0.1.0) (2019-01-15)
 
 
 ## [0.0.15](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.14...v0.0.15) (2019-01-15)
@@ -34,15 +24,12 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 
-## [0.0.14](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.13...v0.0.14) (2019-01-15)
+## [0.0.14](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.12...v0.0.14) (2019-01-15)
 
 ### 🌟 新功能
 
 * **整个项目：** 新增 commitlint ([8d36a76](https://github.com/j710328466/jimi-web-changelog/commit/8d36a76))
 
-
-
-## [0.0.13](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.12...v0.0.13) (2019-01-15)
 
 
 ## [0.0.12](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.11...v0.0.12) (2019-01-15)
@@ -119,7 +106,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 
-## [0.0.7](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.6...v0.0.7) (2019-01-14)
+## [0.0.7](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.4...v0.0.7) (2019-01-14)
 
 ### 🌟 新功能
 
@@ -130,12 +117,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 * **bug：** bug ([620e63f](https://github.com/j710328466/jimi-web-changelog/commit/620e63f))
 
-
-
-## [0.0.6](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.5...v0.0.6) (2019-01-11)
-
-
-## [0.0.5](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.4...v0.0.5) (2019-01-11)
 
 
 ## [0.0.4](https://github.com/j710328466/jimi-web-changelog/compare/ae5248a...v0.0.4) (2019-01-11)
@@ -155,3 +136,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **ui层：** vi接口不兼容
 * **？？：** 影响了一个api
 * **测试：** close #1234
+
+
+

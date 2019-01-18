@@ -33,7 +33,7 @@
 
 按照提示正确输出 commit 信息内容，如下示例：
 
-![git](https://github.com/j710328466/jimi-web-changelog/tree/master/demo/git.png)
+![git](demo/git.png)
 
 
 
@@ -59,7 +59,7 @@ cnpm i conventional-changelog-cli --save-dev
 
 ### 3. 示例
 
-![git](https://github.com/j710328466/jimi-web-changelog/tree/master/demo/md.png)
+![git](demo/md.png)
 
 
 ## 三、lint 模块
