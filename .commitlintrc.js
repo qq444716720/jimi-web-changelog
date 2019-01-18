@@ -64,6 +64,8 @@ module.exports = {
       [ // 影响范围定义字段
         // 'components/Button',
         // '组件/按钮',
+      // "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  
       ]
     ]
   }
