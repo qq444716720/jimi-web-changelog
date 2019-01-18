@@ -1,3 +1,17 @@
+## [0.1.5](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.4...v0.1.5) (2019-01-18)
+
+### 🐛 Bug 修复
+
+* **dist：** 删除 dist 文件夹 ([a013d3e](https://github.com/j710328466/jimi-web-changelog/commit/a013d3e))
+* **package.json：** 修改日志打印筛选条件 ([c99e74c](https://github.com/j710328466/jimi-web-changelog/commit/c99e74c))
+
+
+### 🚀 性能优化
+
+* **dist：** 兼容 es6 到 es5 ([93f445e](https://github.com/j710328466/jimi-web-changelog/commit/93f445e))
+
+
+
 ## [0.1.4](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.3...v0.1.4) (2019-01-18)
 
 

@@ -125,3 +125,7 @@ module.exports = {
 ### mac 无法运行 git cz，报错？
 
 可以试试 xcode-select --install。
+
+### 版本号日志打印后顺序不对？
+
+试着把 package.json 中的版本号更到最新。
