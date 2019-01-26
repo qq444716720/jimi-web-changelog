@@ -5,6 +5,7 @@ module.exports = Object.assign({}, require('jimi-web-changelog/lib/lint'), {
     'header-max-length': [2, 'always', 100],
     'subject-empty': [2, 'never'],
     'type-empty': [2, 'never'],
+    'scope-empty': [2, 'never'],
     'type-enum': [2, 'always', // 类型定义字段
       [
         '新功能',
