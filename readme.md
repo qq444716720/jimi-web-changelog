@@ -17,7 +17,7 @@
   ...
   "config": {
     "commitizen": {
-      "path": "./node_modules/jimi-web-changelog/dist/cz"
+      "path": "./node_modules/jimi-web-changelog/lib/cz"
     }
   },
 }

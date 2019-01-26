@@ -1,4 +1,20 @@
-## [0.1.1](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.0...v0.1.1) (2019-01-18)
+## [0.1.7](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.6...v0.1.7) (2019-01-18)
+
+
+## [0.1.6](https://github.com/j710328466/jimi-web-changelog/compare/0.1.1...v0.1.6) (2019-01-18)
+
+### 🐛 Bug 修复
+
+* **.commitlintrc：** 修改 lint 规则创建方式 ([76d3ebd](https://github.com/j710328466/jimi-web-changelog/commit/76d3ebd))
+
+
+
+## [0.1.1](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.0...0.1.1) (2019-01-15)
+
+### 🐛 Bug 修复
+
+* **package.json：** 修改包依赖关系 ([c1662b0](https://github.com/j710328466/jimi-web-changelog/commit/c1662b0))
+
 
 
 # [0.1.0](https://github.com/j710328466/jimi-web-changelog/compare/v0.0.15...v0.1.0) (2019-01-15)

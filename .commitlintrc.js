@@ -1,6 +1,4 @@
-const lintConfig = require('jimi-web-changelog/lib/lint');
-
-module.exports = Object.assign({}, lintConfig, {
+module.exports = Object.assign({}, require('jimi-web-changelog/lib/lint'), {
   rules: {
     'body-leading-blank': [2, 'always'],
     'footer-leading-blank': [1, 'always'],
