@@ -1,4 +1,4 @@
-## [0.1.7](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.6...v0.1.7) (2019-01-18)
+## [0.1.7](https://github.com/j710328466/jimi-web-changelog/compare/v0.1.6...v0.1.7) (2019-02-18)
 
 
 ## [0.1.6](https://github.com/j710328466/jimi-web-changelog/compare/0.1.1...v0.1.6) (2019-01-18)
