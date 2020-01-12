@@ -1,7 +1,7 @@
 {
-  "name": "jimi-web-changelog",
-  "version": "0.1.7",
-  "author": "Feax",
+  "name": "git-changelog",
+  "version": "1.0.0",
+  "author": "cs",
   "description": "changelog",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -65,7 +65,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/j710328466/jimi-web-changelog"
+    "url": "https://github.com/qq444716720/jimi-web-changelog"
   },
   "license": "MIT"
 }
